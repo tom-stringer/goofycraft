@@ -1,0 +1,60 @@
+{
+  "entity.sheep.shear": {
+    "sounds": [
+      {
+        "name": "mob/sheep/i_like_ya_cut_g"
+      },
+      {
+        "name": "mob/sheep/just_had_haircut"
+      }
+    ]
+  },
+  "entity.villager.ambient": {
+    "sounds": [
+      {
+        "name": "mob/villager/what_the_sigma"
+      }
+    ],
+    "subtitle": "Erm, what the sigma?"
+  },
+  "entity.villager.trade": {
+    "sounds": [
+      {
+        "name": "mob/villager/what_the_sigma"
+      }
+    ],
+    "subtitle": "Erm, what the sigma?"
+  },
+  "entity.villager.hurt": {
+    "sounds": [
+      {
+        "name": "mob/villager/what_the_sigma"
+      }
+    ],
+    "subtitle": "Erm, what the sigma?"
+  },
+  "entity.villager.yes": {
+    "sounds": [
+      {
+        "name": "mob/villager/what_the_sigma"
+      }
+    ],
+    "subtitle": "Erm, what the sigma?"
+  },
+  "entity.villager.no": {
+    "sounds": [
+      {
+        "name": "mob/villager/what_the_sigma"
+      }
+    ],
+    "subtitle": "Erm, what the sigma?"
+  },
+  "entity.villager.death": {
+    "sounds": [
+      {
+        "name": "mob/villager/what_the_sigma"
+      }
+    ],
+    "subtitle": "Erm, what the sigma?"
+  }
+}
