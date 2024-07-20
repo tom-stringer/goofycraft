@@ -1,2 +1,2 @@
 New-Item -Path dist -ItemType Directory -Force
-Compress-Archive -Path src\* -DestinationPath dist\Goofycraft.zip -Force
+&"C:\Program Files\7-Zip\7z.exe" a -tzip -y .\dist\Goofycraft.zip .\src\*
