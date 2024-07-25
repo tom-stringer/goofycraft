@@ -657,17 +657,33 @@
       }
     ]
   },
-  "entity.wolf.ambient": {
+  "entity.wolf.growl": {
     "sounds": [
       {
-        "name": "mob/what_da_dog_doing"
+        "name": "mob/wolf/what_da_dog_doin"
+      },
+      {
+        "name": "mob/wolf/scooby"
+      }
+    ]
+  },
+  "entity.wolf.pant": {
+    "sounds": [
+      {
+        "name": "mob/wolf/what_da_dog_doin"
+      },
+      {
+        "name": "mob/wolf/scooby"
       }
     ]
   },
   "entity.wolf.whine": {
     "sounds": [
       {
-        "name": "mob/what_da_dog_doing"
+        "name": "mob/wolf/what_da_dog_doin"
+      },
+      {
+        "name": "mob/wolf/scooby"
       }
     ]
   },
