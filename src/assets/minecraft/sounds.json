@@ -49,12 +49,706 @@
     ],
     "subtitle": "Erm, what the sigma?"
   },
-  "entity.villager.death": {
+  "entity.blaze.death": {
     "sounds": [
       {
-        "name": "mob/villager/what_the_sigma"
+        "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/you_robbing"
+      },
+      {
+        "name": "mob/get_out"
+      },
+      {
+        "name": "mob/vine_boom"
       }
-    ],
-    "subtitle": "Erm, what the sigma?"
+    ]
+  },
+  "entity.creeper.death": {
+    "sounds": [
+      {
+        "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/you_robbing"
+      },
+      {
+        "name": "mob/get_out"
+      },
+      {
+        "name": "mob/vine_boom"
+      }
+    ]
+  },
+  "entity.drowned.death": {
+    "sounds": [
+      {
+        "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/you_robbing"
+      },
+      {
+        "name": "mob/get_out"
+      },
+      {
+        "name": "mob/vine_boom"
+      }
+    ]
+  },
+  "entity.drowned.death_water": {
+    "sounds": [
+      {
+        "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/you_robbing"
+      },
+      {
+        "name": "mob/get_out"
+      },
+      {
+        "name": "mob/vine_boom"
+      }
+    ]
+  },
+  "entity.elder_guardian.death": {
+    "sounds": [
+      {
+        "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/you_robbing"
+      },
+      {
+        "name": "mob/get_out"
+      },
+      {
+        "name": "mob/vine_boom"
+      }
+    ]
+  },
+  "entity.elder_guardian.death_land": {
+    "sounds": [
+      {
+        "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/you_robbing"
+      },
+      {
+        "name": "mob/get_out"
+      },
+      {
+        "name": "mob/vine_boom"
+      }
+    ]
+  },
+  "entity.ender_dragon.death": {
+    "sounds": [
+      {
+        "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/you_robbing"
+      },
+      {
+        "name": "mob/get_out"
+      },
+      {
+        "name": "mob/vine_boom"
+      }
+    ]
+  },
+  "entity.ender_eye.death": {
+    "sounds": [
+      {
+        "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/you_robbing"
+      },
+      {
+        "name": "mob/get_out"
+      },
+      {
+        "name": "mob/vine_boom"
+      }
+    ]
+  },
+  "entity.enderman.death": {
+    "sounds": [
+      {
+        "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/you_robbing"
+      },
+      {
+        "name": "mob/get_out"
+      },
+      {
+        "name": "mob/vine_boom"
+      }
+    ]
+  },
+  "entity.endermite.death": {
+    "sounds": [
+      {
+        "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/you_robbing"
+      },
+      {
+        "name": "mob/get_out"
+      },
+      {
+        "name": "mob/vine_boom"
+      }
+    ]
+  },
+  "entity.evoker.death": {
+    "sounds": [
+      {
+        "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/you_robbing"
+      },
+      {
+        "name": "mob/get_out"
+      },
+      {
+        "name": "mob/vine_boom"
+      }
+    ]
+  },
+  "entity.ghast.death": {
+    "sounds": [
+      {
+        "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/you_robbing"
+      },
+      {
+        "name": "mob/get_out"
+      },
+      {
+        "name": "mob/vine_boom"
+      }
+    ]
+  },
+  "entity.guardian.death": {
+    "sounds": [
+      {
+        "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/you_robbing"
+      },
+      {
+        "name": "mob/get_out"
+      },
+      {
+        "name": "mob/vine_boom"
+      }
+    ]
+  },
+  "entity.guardian.death_land": {
+    "sounds": [
+      {
+        "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/you_robbing"
+      },
+      {
+        "name": "mob/get_out"
+      },
+      {
+        "name": "mob/vine_boom"
+      }
+    ]
+  },
+  "entity.hoglin.death": {
+    "sounds": [
+      {
+        "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/you_robbing"
+      },
+      {
+        "name": "mob/get_out"
+      },
+      {
+        "name": "mob/vine_boom"
+      }
+    ]
+  },
+  "entity.hostile.death": {
+    "sounds": [
+      {
+        "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/you_robbing"
+      },
+      {
+        "name": "mob/get_out"
+      },
+      {
+        "name": "mob/vine_boom"
+      }
+    ]
+  },
+  "entity.husk.death": {
+    "sounds": [
+      {
+        "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/you_robbing"
+      },
+      {
+        "name": "mob/get_out"
+      },
+      {
+        "name": "mob/vine_boom"
+      }
+    ]
+  },
+  "entity.illusioner.death": {
+    "sounds": [
+      {
+        "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/you_robbing"
+      },
+      {
+        "name": "mob/get_out"
+      },
+      {
+        "name": "mob/vine_boom"
+      }
+    ]
+  },
+  "entity.magma_cube.death": {
+    "sounds": [
+      {
+        "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/you_robbing"
+      },
+      {
+        "name": "mob/get_out"
+      },
+      {
+        "name": "mob/vine_boom"
+      }
+    ]
+  },
+  "entity.magma_cube.death_small": {
+    "sounds": [
+      {
+        "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/you_robbing"
+      },
+      {
+        "name": "mob/get_out"
+      },
+      {
+        "name": "mob/vine_boom"
+      }
+    ]
+  },
+  "entity.phantom.death": {
+    "sounds": [
+      {
+        "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/you_robbing"
+      },
+      {
+        "name": "mob/get_out"
+      },
+      {
+        "name": "mob/vine_boom"
+      }
+    ]
+  },
+  "entity.pig.death": {
+    "sounds": [
+      {
+        "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/you_robbing"
+      },
+      {
+        "name": "mob/get_out"
+      },
+      {
+        "name": "mob/vine_boom"
+      }
+    ]
+  },
+  "entity.piglin.death": {
+    "sounds": [
+      {
+        "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/you_robbing"
+      },
+      {
+        "name": "mob/get_out"
+      },
+      {
+        "name": "mob/vine_boom"
+      }
+    ]
+  },
+  "entity.pillager.death": {
+    "sounds": [
+      {
+        "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/you_robbing"
+      },
+      {
+        "name": "mob/get_out"
+      },
+      {
+        "name": "mob/vine_boom"
+      }
+    ]
+  },
+  "entity.ravager.death": {
+    "sounds": [
+      {
+        "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/you_robbing"
+      },
+      {
+        "name": "mob/get_out"
+      },
+      {
+        "name": "mob/vine_boom"
+      }
+    ]
+  },
+  "entity.shulker.death": {
+    "sounds": [
+      {
+        "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/you_robbing"
+      },
+      {
+        "name": "mob/get_out"
+      },
+      {
+        "name": "mob/vine_boom"
+      }
+    ]
+  },
+  "entity.skeleton.death": {
+    "sounds": [
+      {
+        "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/you_robbing"
+      },
+      {
+        "name": "mob/get_out"
+      },
+      {
+        "name": "mob/vine_boom"
+      }
+    ]
+  },
+  "entity.skeleton_horse.death": {
+    "sounds": [
+      {
+        "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/you_robbing"
+      },
+      {
+        "name": "mob/get_out"
+      },
+      {
+        "name": "mob/vine_boom"
+      }
+    ]
+  },
+  "entity.slime.death": {
+    "sounds": [
+      {
+        "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/you_robbing"
+      },
+      {
+        "name": "mob/get_out"
+      },
+      {
+        "name": "mob/vine_boom"
+      }
+    ]
+  },
+  "entity.slime.death_small": {
+    "sounds": [
+      {
+        "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/you_robbing"
+      },
+      {
+        "name": "mob/get_out"
+      },
+      {
+        "name": "mob/vine_boom"
+      }
+    ]
+  },
+  "entity.snow_golem.death": {
+    "sounds": [
+      {
+        "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/you_robbing"
+      },
+      {
+        "name": "mob/get_out"
+      },
+      {
+        "name": "mob/vine_boom"
+      }
+    ]
+  },
+  "entity.spider.death": {
+    "sounds": [
+      {
+        "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/you_robbing"
+      },
+      {
+        "name": "mob/get_out"
+      },
+      {
+        "name": "mob/vine_boom"
+      }
+    ]
+  },
+  "entity.strider.death": {
+    "sounds": [
+      {
+        "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/you_robbing"
+      },
+      {
+        "name": "mob/get_out"
+      },
+      {
+        "name": "mob/vine_boom"
+      }
+    ]
+  },
+  "entity.vex.death": {
+    "sounds": [
+      {
+        "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/you_robbing"
+      },
+      {
+        "name": "mob/get_out"
+      },
+      {
+        "name": "mob/vine_boom"
+      }
+    ]
+  },
+  "entity.vindicator.death": {
+    "sounds": [
+      {
+        "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/you_robbing"
+      },
+      {
+        "name": "mob/get_out"
+      },
+      {
+        "name": "mob/vine_boom"
+      }
+    ]
+  },
+  "entity.witch.death": {
+    "sounds": [
+      {
+        "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/you_robbing"
+      },
+      {
+        "name": "mob/get_out"
+      },
+      {
+        "name": "mob/vine_boom"
+      }
+    ]
+  },
+  "entity.wither.death": {
+    "sounds": [
+      {
+        "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/you_robbing"
+      },
+      {
+        "name": "mob/get_out"
+      },
+      {
+        "name": "mob/vine_boom"
+      }
+    ]
+  },
+  "entity.wither_skeleton.death": {
+    "sounds": [
+      {
+        "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/you_robbing"
+      },
+      {
+        "name": "mob/get_out"
+      },
+      {
+        "name": "mob/vine_boom"
+      }
+    ]
+  },
+  "entity.wolf.ambient": {
+    "sounds": [
+      {
+        "name": "mob/what_da_dog_doing"
+      }
+    ]
+  },
+  "entity.wolf.whine": {
+    "sounds": [
+      {
+        "name": "mob/what_da_dog_doing"
+      }
+    ]
+  },
+  "entity.zoglin.death": {
+    "sounds": [
+      {
+        "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/you_robbing"
+      },
+      {
+        "name": "mob/get_out"
+      },
+      {
+        "name": "mob/vine_boom"
+      }
+    ]
+  },
+  "entity.zombie.death": {
+    "sounds": [
+      {
+        "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/you_robbing"
+      },
+      {
+        "name": "mob/get_out"
+      },
+      {
+        "name": "mob/vine_boom"
+      }
+    ]
+  },
+  "entity.zombie_horse.death": {
+    "sounds": [
+      {
+        "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/you_robbing"
+      },
+      {
+        "name": "mob/get_out"
+      },
+      {
+        "name": "mob/vine_boom"
+      }
+    ]
+  },
+  "entity.zombie_villager.death": {
+    "sounds": [
+      {
+        "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/you_robbing"
+      },
+      {
+        "name": "mob/get_out"
+      },
+      {
+        "name": "mob/vine_boom"
+      }
+    ]
+  },
+  "entity.zombified_piglin.death": {
+    "sounds": [
+      {
+        "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/you_robbing"
+      },
+      {
+        "name": "mob/get_out"
+      },
+      {
+        "name": "mob/vine_boom"
+      }
+    ]
   }
 }
