@@ -55,6 +55,9 @@
         "name": "mob/eff_off_greggs"
       },
       {
+        "name": "mob/fart_reverb"
+      },
+      {
         "name": "mob/you_robbing"
       },
       {
@@ -69,6 +72,9 @@
     "sounds": [
       {
         "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/fart_reverb"
       },
       {
         "name": "mob/you_robbing"
@@ -87,6 +93,9 @@
         "name": "mob/eff_off_greggs"
       },
       {
+        "name": "mob/fart_reverb"
+      },
+      {
         "name": "mob/you_robbing"
       },
       {
@@ -101,6 +110,9 @@
     "sounds": [
       {
         "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/fart_reverb"
       },
       {
         "name": "mob/you_robbing"
@@ -119,6 +131,9 @@
         "name": "mob/eff_off_greggs"
       },
       {
+        "name": "mob/fart_reverb"
+      },
+      {
         "name": "mob/you_robbing"
       },
       {
@@ -133,6 +148,9 @@
     "sounds": [
       {
         "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/fart_reverb"
       },
       {
         "name": "mob/you_robbing"
@@ -151,6 +169,9 @@
         "name": "mob/eff_off_greggs"
       },
       {
+        "name": "mob/fart_reverb"
+      },
+      {
         "name": "mob/you_robbing"
       },
       {
@@ -165,6 +186,9 @@
     "sounds": [
       {
         "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/fart_reverb"
       },
       {
         "name": "mob/you_robbing"
@@ -183,6 +207,9 @@
         "name": "mob/eff_off_greggs"
       },
       {
+        "name": "mob/fart_reverb"
+      },
+      {
         "name": "mob/you_robbing"
       },
       {
@@ -197,6 +224,9 @@
     "sounds": [
       {
         "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/fart_reverb"
       },
       {
         "name": "mob/you_robbing"
@@ -215,6 +245,9 @@
         "name": "mob/eff_off_greggs"
       },
       {
+        "name": "mob/fart_reverb"
+      },
+      {
         "name": "mob/you_robbing"
       },
       {
@@ -229,6 +262,9 @@
     "sounds": [
       {
         "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/fart_reverb"
       },
       {
         "name": "mob/you_robbing"
@@ -247,6 +283,9 @@
         "name": "mob/eff_off_greggs"
       },
       {
+        "name": "mob/fart_reverb"
+      },
+      {
         "name": "mob/you_robbing"
       },
       {
@@ -261,6 +300,9 @@
     "sounds": [
       {
         "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/fart_reverb"
       },
       {
         "name": "mob/you_robbing"
@@ -279,6 +321,9 @@
         "name": "mob/eff_off_greggs"
       },
       {
+        "name": "mob/fart_reverb"
+      },
+      {
         "name": "mob/you_robbing"
       },
       {
@@ -293,6 +338,9 @@
     "sounds": [
       {
         "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/fart_reverb"
       },
       {
         "name": "mob/you_robbing"
@@ -311,6 +359,9 @@
         "name": "mob/eff_off_greggs"
       },
       {
+        "name": "mob/fart_reverb"
+      },
+      {
         "name": "mob/you_robbing"
       },
       {
@@ -325,6 +376,9 @@
     "sounds": [
       {
         "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/fart_reverb"
       },
       {
         "name": "mob/you_robbing"
@@ -343,6 +397,9 @@
         "name": "mob/eff_off_greggs"
       },
       {
+        "name": "mob/fart_reverb"
+      },
+      {
         "name": "mob/you_robbing"
       },
       {
@@ -357,6 +414,9 @@
     "sounds": [
       {
         "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/fart_reverb"
       },
       {
         "name": "mob/you_robbing"
@@ -375,6 +435,9 @@
         "name": "mob/eff_off_greggs"
       },
       {
+        "name": "mob/fart_reverb"
+      },
+      {
         "name": "mob/you_robbing"
       },
       {
@@ -389,6 +452,9 @@
     "sounds": [
       {
         "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/fart_reverb"
       },
       {
         "name": "mob/you_robbing"
@@ -407,6 +473,9 @@
         "name": "mob/eff_off_greggs"
       },
       {
+        "name": "mob/fart_reverb"
+      },
+      {
         "name": "mob/you_robbing"
       },
       {
@@ -423,6 +492,9 @@
         "name": "mob/eff_off_greggs"
       },
       {
+        "name": "mob/fart_reverb"
+      },
+      {
         "name": "mob/you_robbing"
       },
       {
@@ -433,10 +505,26 @@
       }
     ]
   },
+  "entity.player.death": {
+    "sounds": [
+      {
+        "name": "entity/player/badlands"
+      },
+      {
+        "name": "entity/player/oh_hell_nah_man"
+      },
+      {
+        "name": "entity/player/vine_boom"
+      }
+    ]
+  },
   "entity.ravager.death": {
     "sounds": [
       {
         "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/fart_reverb"
       },
       {
         "name": "mob/you_robbing"
@@ -455,6 +543,9 @@
         "name": "mob/eff_off_greggs"
       },
       {
+        "name": "mob/fart_reverb"
+      },
+      {
         "name": "mob/you_robbing"
       },
       {
@@ -469,6 +560,9 @@
     "sounds": [
       {
         "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/fart_reverb"
       },
       {
         "name": "mob/you_robbing"
@@ -487,6 +581,9 @@
         "name": "mob/eff_off_greggs"
       },
       {
+        "name": "mob/fart_reverb"
+      },
+      {
         "name": "mob/you_robbing"
       },
       {
@@ -501,6 +598,9 @@
     "sounds": [
       {
         "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/fart_reverb"
       },
       {
         "name": "mob/you_robbing"
@@ -519,6 +619,9 @@
         "name": "mob/eff_off_greggs"
       },
       {
+        "name": "mob/fart_reverb"
+      },
+      {
         "name": "mob/you_robbing"
       },
       {
@@ -533,6 +636,9 @@
     "sounds": [
       {
         "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/fart_reverb"
       },
       {
         "name": "mob/you_robbing"
@@ -551,6 +657,9 @@
         "name": "mob/eff_off_greggs"
       },
       {
+        "name": "mob/fart_reverb"
+      },
+      {
         "name": "mob/you_robbing"
       },
       {
@@ -565,6 +674,9 @@
     "sounds": [
       {
         "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/fart_reverb"
       },
       {
         "name": "mob/you_robbing"
@@ -583,6 +695,9 @@
         "name": "mob/eff_off_greggs"
       },
       {
+        "name": "mob/fart_reverb"
+      },
+      {
         "name": "mob/you_robbing"
       },
       {
@@ -597,6 +712,9 @@
     "sounds": [
       {
         "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/fart_reverb"
       },
       {
         "name": "mob/you_robbing"
@@ -615,6 +733,9 @@
         "name": "mob/eff_off_greggs"
       },
       {
+        "name": "mob/fart_reverb"
+      },
+      {
         "name": "mob/you_robbing"
       },
       {
@@ -631,6 +752,9 @@
         "name": "mob/eff_off_greggs"
       },
       {
+        "name": "mob/fart_reverb"
+      },
+      {
         "name": "mob/you_robbing"
       },
       {
@@ -645,6 +769,9 @@
     "sounds": [
       {
         "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/fart_reverb"
       },
       {
         "name": "mob/you_robbing"
@@ -693,6 +820,9 @@
         "name": "mob/eff_off_greggs"
       },
       {
+        "name": "mob/fart_reverb"
+      },
+      {
         "name": "mob/you_robbing"
       },
       {
@@ -707,6 +837,9 @@
     "sounds": [
       {
         "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/fart_reverb"
       },
       {
         "name": "mob/you_robbing"
@@ -725,6 +858,9 @@
         "name": "mob/eff_off_greggs"
       },
       {
+        "name": "mob/fart_reverb"
+      },
+      {
         "name": "mob/you_robbing"
       },
       {
@@ -741,6 +877,9 @@
         "name": "mob/eff_off_greggs"
       },
       {
+        "name": "mob/fart_reverb"
+      },
+      {
         "name": "mob/you_robbing"
       },
       {
@@ -755,6 +894,9 @@
     "sounds": [
       {
         "name": "mob/eff_off_greggs"
+      },
+      {
+        "name": "mob/fart_reverb"
       },
       {
         "name": "mob/you_robbing"
