@@ -13,41 +13,51 @@
     "sounds": [
       {
         "name": "mob/villager/what_the_sigma"
+      },
+      {
+        "name": "mob/villager/spare"
       }
-    ],
-    "subtitle": "Erm, what the sigma?"
+    ]
   },
   "entity.villager.trade": {
     "sounds": [
       {
         "name": "mob/villager/what_the_sigma"
+      },
+      {
+        "name": "mob/villager/spare"
       }
-    ],
-    "subtitle": "Erm, what the sigma?"
+    ]
   },
   "entity.villager.hurt": {
     "sounds": [
       {
         "name": "mob/villager/what_the_sigma"
+      },
+      {
+        "name": "mob/villager/spare"
       }
-    ],
-    "subtitle": "Erm, what the sigma?"
+    ]
   },
   "entity.villager.yes": {
     "sounds": [
       {
         "name": "mob/villager/what_the_sigma"
+      },
+      {
+        "name": "mob/villager/spare"
       }
-    ],
-    "subtitle": "Erm, what the sigma?"
+    ]
   },
   "entity.villager.no": {
     "sounds": [
       {
         "name": "mob/villager/what_the_sigma"
+      },
+      {
+        "name": "mob/villager/spare"
       }
-    ],
-    "subtitle": "Erm, what the sigma?"
+    ]
   },
   "entity.blaze.death": {
     "sounds": [
