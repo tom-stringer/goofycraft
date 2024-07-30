@@ -859,6 +859,9 @@
       },
       {
         "name": "mob/vine_boom"
+      },
+      {
+        "name": "mob/zombie/bruh"
       }
     ]
   },
