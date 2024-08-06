@@ -1,52 +1,4 @@
 {
-  "entity.sheep.shear": {
-    "sounds": [
-      {
-        "name": "mob/sheep/i_like_ya_cut_g"
-      },
-      {
-        "name": "mob/sheep/just_had_haircut"
-      }
-    ]
-  },
-  "entity.villager.ambient": {
-    "sounds": [
-      {
-        "name": "mob/villager/what_the_sigma"
-      }
-    ]
-  },
-  "entity.villager.trade": {
-    "sounds": [
-      {
-        "name": "mob/villager/spare",
-        "volume":  0.8
-      }
-    ]
-  },
-  "entity.villager.hurt": {
-    "sounds": [
-      {
-        "name": "mob/villager/what_the_sigma"
-      }
-    ]
-  },
-  "entity.villager.yes": {
-    "sounds": [
-      {
-        "name": "mob/villager/spare",
-        "volume":  0.8
-      }
-    ]
-  },
-  "entity.villager.no": {
-    "sounds": [
-      {
-        "name": "mob/villager/spare",
-        "volume":  0.8
-      }
-    ]
-  },
   "entity.blaze.death": {
     "sounds": [
       {
@@ -535,6 +487,16 @@
       }
     ]
   },
+  "entity.sheep.shear": {
+    "sounds": [
+      {
+        "name": "mob/sheep/i_like_ya_cut_g"
+      },
+      {
+        "name": "mob/sheep/just_had_haircut"
+      }
+    ]
+  },
   "entity.shulker.death": {
     "sounds": [
       {
@@ -706,6 +668,44 @@
       }
     ]
   },
+  "entity.villager.ambient": {
+    "sounds": [
+      {
+        "name": "mob/villager/what_the_sigma"
+      }
+    ]
+  },
+  "entity.villager.hurt": {
+    "sounds": [
+      {
+        "name": "mob/villager/what_the_sigma"
+      }
+    ]
+  },
+  "entity.villager.no": {
+    "sounds": [
+      {
+        "name": "mob/villager/spare",
+        "volume": 0.8
+      }
+    ]
+  },
+  "entity.villager.trade": {
+    "sounds": [
+      {
+        "name": "mob/villager/spare",
+        "volume": 0.8
+      }
+    ]
+  },
+  "entity.villager.yes": {
+    "sounds": [
+      {
+        "name": "mob/villager/spare",
+        "volume": 0.8
+      }
+    ]
+  },
   "entity.vindicator.death": {
     "sounds": [
       {
@@ -834,6 +834,9 @@
   "entity.zombie.death": {
     "sounds": [
       {
+        "name": "mob/zombie/bruh"
+      },
+      {
         "name": "mob/eff_off_greggs"
       },
       {
@@ -847,9 +850,6 @@
       },
       {
         "name": "mob/vine_boom"
-      },
-      {
-        "name": "mob/zombie/bruh"
       }
     ]
   },
