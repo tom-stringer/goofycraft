@@ -13,19 +13,14 @@
     "sounds": [
       {
         "name": "mob/villager/what_the_sigma"
-      },
-      {
-        "name": "mob/villager/spare"
       }
     ]
   },
   "entity.villager.trade": {
     "sounds": [
       {
-        "name": "mob/villager/what_the_sigma"
-      },
-      {
-        "name": "mob/villager/spare"
+        "name": "mob/villager/spare",
+        "volume":  0.8
       }
     ]
   },
@@ -33,29 +28,22 @@
     "sounds": [
       {
         "name": "mob/villager/what_the_sigma"
-      },
-      {
-        "name": "mob/villager/spare"
       }
     ]
   },
   "entity.villager.yes": {
     "sounds": [
       {
-        "name": "mob/villager/what_the_sigma"
-      },
-      {
-        "name": "mob/villager/spare"
+        "name": "mob/villager/spare",
+        "volume":  0.8
       }
     ]
   },
   "entity.villager.no": {
     "sounds": [
       {
-        "name": "mob/villager/what_the_sigma"
-      },
-      {
-        "name": "mob/villager/spare"
+        "name": "mob/villager/spare",
+        "volume":  0.8
       }
     ]
   },
