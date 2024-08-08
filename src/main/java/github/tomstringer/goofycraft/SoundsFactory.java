@@ -66,7 +66,8 @@ public class SoundsFactory
                         sound("mob/fart_reverb"),
                         sound("mob/you_robbing"),
                         sound("mob/get_out"),
-                        sound("mob/vine_boom")));
+                        sound("mob/vine_boom"),
+                        sound("mob/hitman")));
 
         return sounds;
     }
