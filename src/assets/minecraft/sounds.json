@@ -1,4 +1,11 @@
 {
+  "block.chest.open": {
+    "sounds": [
+      {
+        "name": "block/chest/pierre"
+      }
+    ]
+  },
   "entity.blaze.death": {
     "sounds": [
       {
@@ -537,6 +544,20 @@
       },
       {
         "name": "entity/player/vine_boom"
+      }
+    ]
+  },
+  "entity.puffer_fish.ambient": {
+    "sounds": [
+      {
+        "name": "entity/pufferfish/pufferfish"
+      }
+    ]
+  },
+  "entity.puffer_fish.death": {
+    "sounds": [
+      {
+        "name": "entity/pufferfish/pufferfish"
       }
     ]
   },

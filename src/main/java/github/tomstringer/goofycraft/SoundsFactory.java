@@ -41,6 +41,14 @@ public class SoundsFactory
                         sound("entity/player/vine_boom")
                 )
                 .add(
+                        "entity.puffer_fish.ambient",
+                        sound("entity/pufferfish/pufferfish")
+                )
+                .add(
+                        "entity.puffer_fish.death",
+                        sound("entity/pufferfish/pufferfish")
+                )
+                .add(
                         "entity.wolf.growl",
                         sound("mob/wolf/what_da_dog_doin"),
                         sound("mob/wolf/scooby")
@@ -58,6 +66,10 @@ public class SoundsFactory
                 .add(
                         "entity.zombie.death",
                         sound("mob/zombie/bruh")
+                )
+                .add(
+                        "block.chest.open",
+                        sound("block/chest/pierre")
                 );
 
         hostileMobDeathEvents()
