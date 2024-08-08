@@ -6,4 +6,4 @@ if (Test-Path $BuildDirectory) {
     Remove-Item -Path $BuildDirectory -Recurse -Force
 }
 New-Item -Path $BuildDirectory -ItemType Directory -Force
-&$7ZipExe a -tzip -y $BuildZip .\src\pack.mcmeta .\src\assets\*
+&$7ZipExe a -tzip -y $BuildZip .\src\pack.mcmeta .\src\assets
