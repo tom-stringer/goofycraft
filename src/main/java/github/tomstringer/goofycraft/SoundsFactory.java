@@ -38,7 +38,8 @@ public class SoundsFactory
                         "entity.player.death",
                         sound("entity/player/badlands"),
                         sound("entity/player/oh_hell_nah_man"),
-                        sound("entity/player/vine_boom")
+                        sound("entity/player/vine_boom"),
+                        sound("entity/player/bad_ape_oh_no")
                 )
                 .add(
                         "entity.puffer_fish.ambient",
@@ -79,7 +80,9 @@ public class SoundsFactory
                         sound("mob/you_robbing"),
                         sound("mob/get_out"),
                         sound("mob/vine_boom"),
-                        sound("mob/hitman")));
+                        sound("mob/hitman"),
+                        sound("mob/huh"),
+                        sound("mob/caesar_no")));
 
         return sounds;
     }
