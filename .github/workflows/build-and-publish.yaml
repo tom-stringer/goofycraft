@@ -1,0 +1,26 @@
+name: Build and publish Goofycraft
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Build resource pack
+        uses: gradle/actions/setup-gradle@v3
+        with:
+          arguments: buildResourcePack
+
+      - name: Publish to GitHub
+        uses: softprops/action-gh-release@v1
+        with:
+          files: build/distributions/Goofycraft*.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

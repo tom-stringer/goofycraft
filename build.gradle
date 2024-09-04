@@ -19,7 +19,7 @@ def generateSounds = tasks.register('generateFiles', JavaExec) {
     mainClass = 'github.tomstringer.goofycraft.GenerateSounds'
 }
 
-def createResourcePack = tasks.register('createResourcePack', Zip) {
+def buildResourcePack = tasks.register('buildResourcePack', Zip) {
     dependsOn generateSounds
     group = 'build'
 
@@ -34,10 +34,10 @@ def createResourcePack = tasks.register('createResourcePack', Zip) {
 }
 
 tasks.register('installResourcePack', Copy) {
-    dependsOn createResourcePack
+    dependsOn buildResourcePack
     group = 'build'
 
-    def buildZip = createResourcePack.get().archiveFile.get().asFile
+    def buildZip = buildResourcePack.get().archiveFile.get().asFile
     def installZip = file("C:/Users/strin/AppData/Roaming/.minecraft/resourcepacks")
 
     from(buildZip)
