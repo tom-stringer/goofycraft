@@ -3,7 +3,7 @@ plugins {
 }
 
 group = 'github.tom-stringer'
-version = '1.0-SNAPSHOT'
+version = '69'
 
 repositories {
     mavenCentral()
@@ -11,5 +11,35 @@ repositories {
 
 dependencies {
     implementation 'com.google.code.gson:gson:2.11.0'
+}
 
+def generateSounds = tasks.register('generateFiles', JavaExec) {
+    group = 'build'
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = 'github.tomstringer.goofycraft.GenerateSounds'
+}
+
+def createResourcePack = tasks.register('createResourcePack', Zip) {
+    dependsOn generateSounds
+    group = 'build'
+
+    archiveVersion = 'v' + version
+
+    from('src/pack.mcmeta') {
+        into ''
+    }
+    from('src/assets') {
+        into 'assets'
+    }
+}
+
+tasks.register('installResourcePack', Copy) {
+    dependsOn createResourcePack
+    group = 'build'
+
+    def buildZip = createResourcePack.get().archiveFile.get().asFile
+    def installZip = file("C:/Users/strin/AppData/Roaming/.minecraft/resourcepacks")
+
+    from(buildZip)
+    into(installZip)
 }

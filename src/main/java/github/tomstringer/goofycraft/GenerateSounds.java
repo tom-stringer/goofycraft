@@ -8,7 +8,7 @@ import java.io.IOException;
 
 import static github.tomstringer.goofycraft.SoundsFactory.createSounds;
 
-public class Main
+public class GenerateSounds
 {
     public static void main(String[] args) throws IOException
     {
