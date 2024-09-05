@@ -23,7 +23,9 @@ test {
 }
 
 def generateSounds = tasks.register('generateSounds', JavaExec) {
+    dependsOn check
     group = 'build'
+
     classpath = sourceSets.main.runtimeClasspath
     mainClass = 'github.tomstringer.goofycraft.Main'
 }
@@ -41,6 +43,8 @@ def buildResourcePack = tasks.register('buildResourcePack', Zip) {
         into 'assets'
     }
 }
+
+build.dependsOn buildResourcePack
 
 tasks.register('installResourcePack', Copy) {
     dependsOn buildResourcePack
