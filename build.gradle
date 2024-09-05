@@ -11,12 +11,21 @@ repositories {
 
 dependencies {
     implementation 'com.google.code.gson:gson:2.11.0'
+
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.0'
+    testImplementation 'org.mockito:mockito-core:5.13.0'
+    testImplementation 'org.mockito:mockito-junit-jupiter:5.13.0'
+    testImplementation 'org.assertj:assertj-core:3.24.2'
 }
 
-def generateSounds = tasks.register('generateFiles', JavaExec) {
+test {
+    useJUnitPlatform()
+}
+
+def generateSounds = tasks.register('generateSounds', JavaExec) {
     group = 'build'
     classpath = sourceSets.main.runtimeClasspath
-    mainClass = 'github.tomstringer.goofycraft.GenerateSounds'
+    mainClass = 'github.tomstringer.goofycraft.Main'
 }
 
 def buildResourcePack = tasks.register('buildResourcePack', Zip) {

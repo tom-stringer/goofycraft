@@ -1,12 +1,14 @@
 package github.tomstringer.goofycraft;
 
+import github.tomstringer.goofycraft.model.Sounds;
+
 import java.util.List;
 
-import static github.tomstringer.goofycraft.Sound.sound;
+import static github.tomstringer.goofycraft.model.Sound.sound;
 
 public class SoundsFactory
 {
-    public static Sounds createSounds()
+    public Sounds createSounds()
     {
         Sounds sounds = new Sounds()
                 .add(

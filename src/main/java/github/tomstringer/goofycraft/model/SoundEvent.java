@@ -1,4 +1,4 @@
-package github.tomstringer.goofycraft;
+package github.tomstringer.goofycraft.model;
 
 import java.util.ArrayList;
 import java.util.Arrays;

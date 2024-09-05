@@ -1,4 +1,4 @@
-package github.tomstringer.goofycraft;
+package github.tomstringer.goofycraft.model;
 
 import java.util.Map;
 import java.util.TreeMap;
