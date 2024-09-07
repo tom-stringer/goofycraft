@@ -1,0 +1,16 @@
+name: Test Goofycraft
+
+on: [push, pull_request]
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Build resource pack
+        uses: gradle/actions/setup-gradle@v3
+        with:
+          arguments: check
