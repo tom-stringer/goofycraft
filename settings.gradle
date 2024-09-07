@@ -1,2 +1,3 @@
 rootProject.name = 'Goofycraft'
 
+include 'resource-pack'

@@ -33,6 +33,7 @@ def buildResourcePack = tasks.register('buildResourcePack', Zip) {
     dependsOn generateSounds
     group = 'build'
 
+    archiveBaseName = 'Goofycraft'
     archiveVersion = 'v' + version
 
     from sourceSets.main.resources

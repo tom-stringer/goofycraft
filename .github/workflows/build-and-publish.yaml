@@ -23,11 +23,11 @@ jobs:
         uses: gradle/actions/setup-gradle@v4
 
       - name: Build resource pack
-        run: ./gradlew build
+        run: ./gradlew resource-pack:build
 
       - name: Publish release to GitHub
         uses: softprops/action-gh-release@v1
         with:
-          files: build/distributions/Goofycraft*.zip
+          files: resource-pack/build/distributions/Goofycraft*.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
