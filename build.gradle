@@ -23,7 +23,6 @@ test {
 }
 
 def generateSounds = tasks.register('generateSounds', JavaExec) {
-    dependsOn check
     group = 'build'
 
     classpath = sourceSets.main.runtimeClasspath
@@ -36,12 +35,7 @@ def buildResourcePack = tasks.register('buildResourcePack', Zip) {
 
     archiveVersion = 'v' + version
 
-    from('src/pack.mcmeta') {
-        into ''
-    }
-    from('src/assets') {
-        into 'assets'
-    }
+    from sourceSets.main.resources
 }
 
 build.dependsOn buildResourcePack
