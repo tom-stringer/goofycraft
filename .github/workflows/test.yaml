@@ -1,16 +1,23 @@
-name: Test Goofycraft
+name: Test
 
 on: [push, pull_request]
 
 jobs:
-  build-and-publish:
+  test:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Build resource pack
-        uses: gradle/actions/setup-gradle@v3
+      - name: Setup Java
+        uses: actions/setup-java@v4
         with:
-          arguments: check
+          distribution: 'temurin'
+          java-version: 21
+
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v4
+
+      - name: Run all tests
+        run: ./gradlew check

@@ -1,4 +1,4 @@
-name: Build and publish Goofycraft
+name: Build and publish release
 
 on:
   push:
@@ -13,12 +13,19 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Build resource pack
-        uses: gradle/actions/setup-gradle@v3
+      - name: Setup Java
+        uses: actions/setup-java@v4
         with:
-          arguments: buildResourcePack
+          distribution: 'temurin'
+          java-version: 21
 
-      - name: Publish to GitHub
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v4
+
+      - name: Build resource pack
+        run: ./gradlew build
+
+      - name: Publish release to GitHub
         uses: softprops/action-gh-release@v1
         with:
           files: build/distributions/Goofycraft*.zip
